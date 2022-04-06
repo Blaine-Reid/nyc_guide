@@ -1,11 +1,13 @@
+<!-- Display borough context being sent in via the BoroughView -->
 <h1>{{ borough | title }}</h1>
 
 <ul>
-    {% for activity in activities %}
-    <li>
-        <a href="{% url 'activity' borough activity %} "
-            >{{ activity|title }}</a
-        >
-    </li>
-    {% endfor %}
+  <!--loop through "activities" context being sent via the BoroughView  -->
+  {% for activity in activities %}
+  <li>
+    <!-- Create anchor tag that takes user to url pattern named = "activity" -->
+    <!-- passing that pattern the variables "borough activity" -->
+    <a href="{% url 'activity' borough activity %} ">{{ activity|title }}</a>
+  </li>
+  {% endfor %}
 </ul>
