@@ -42,8 +42,8 @@ And go to `http://localhost:8000`
 
 ## Contributing
 
-[Hana](https://github.com/Harmony-yz)
-[Blaine Reid](https://github.com/Blaine-Reid/)
+- [Hana](https://github.com/Harmony-yz)
+- [Blaine Reid](https://github.com/Blaine-Reid/)
 
 #### Bug Reports & Feature Requests
 
