@@ -1,6 +1,11 @@
+
+![](https://i.ytimg.com/vi/h3lBFKjnEV8/maxresdefault.jpg)
+
 # New York City Guide - Django Project
 
-## To start building the project:
+A easy to use guide for activities and locales in the boroughs of New York.
+
+## Installation
 
 ### 1. Create a virtual environment
 
@@ -33,3 +38,13 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 And go to `http://localhost:8000`
+
+
+## Contributing
+
+[Hana](https://github.com/Harmony-yz)
+[Blaine Reid](https://github.com/Blaine-Reid/)
+
+#### Bug Reports & Feature Requests
+
+Please use the [issue tracker](https://github.com/Blaine-Reid/nyc_guide/issues) to report any bugs or file feature requests.
